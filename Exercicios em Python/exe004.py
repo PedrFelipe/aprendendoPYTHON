@@ -1,0 +1,10 @@
+valor = input('Digite oque vier em mente: ')
+
+print(f"Oque você digitou que foi {valor} da {type(valor)}")
+print(f"é Alnum: {valor.isalnum()}")
+print(f"Alpha: {valor.isalpha()}")
+print(f"Digit: {valor.isdigit()}")
+print(f"Decimal: {valor.isdecimal()}")
+print(f"Space: {valor.isspace()}")
+print(f"Printable: {valor.isprintable()}")
+print(f"Identifier: {valor.isidentifier()}")
